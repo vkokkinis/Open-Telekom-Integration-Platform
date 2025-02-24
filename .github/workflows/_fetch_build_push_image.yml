@@ -5,7 +5,7 @@
 name: fetch_build_push_image
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       source_repository:
         description: 'Repository to fetch'
