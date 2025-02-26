@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build-gateway-jumper:
-    uses: ./.github/workflows/_fetch_build_push_image.yml
+    uses: vkokkinis/gateway-jumper/.github/workflows/_fetch_build_push_image.yml@tardis
     with:
       source_repository: 'vkokkinis/gateway-jumper'
       source_dockerfile: 'Dockerfile.multi-stage'
